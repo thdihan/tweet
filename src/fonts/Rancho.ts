@@ -1,6 +1,6 @@
 import { Rancho } from "next/font/google";
 
-const rancho = Rancho({
+export const rancho = Rancho({
     weight: "400",
     subsets: ["latin"],
     display: "swap",
