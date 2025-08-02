@@ -5,6 +5,12 @@
     --foreground: #171717;
     --primary: #ed6923;
     --secondary: #333333;
+    --gradient-primary: linear-gradient(
+        45deg,
+        #fe8c4f8e 1%,
+        #fe8c4f66 25%,
+        #fdede5 100%
+    );
 }
 
 @theme inline {
@@ -14,6 +20,7 @@
     --font-mono: var(--font-geist-mono);
     --color-primary: var(--primary);
     --color-secondary: var(--secondary);
+    --background-image-hero: var(--gradient-primary);
 }
 
 /* @media (prefers-color-scheme: dark) {
